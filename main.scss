@@ -10,21 +10,41 @@ $accordion-icon-active-color: $secondary;
     color: $secondary; /* Cambia el color del texto a blanco cuando el botón esté activo */
 }
 
+
+.btn-primary:hover {
+	color: $primary;
+	background-color: $body-bg;
+	border-color: $primary;
+}
+
+.btn-secondary:hover {
+	color: $secondary !important;
+	background-color: $body-bg;
+	border-color: $secondary;
+}
+
+.img-main {
+    position: relative;
+    z-index: 1;
+}
+
 .blue-right-shadow {
 	position: absolute;
 	z-index: -1;
-	width: 400%;
-	height: 75%;
-	top: 30%;
-	left: 30%;
+	width: 85%;
+	height: 70%;
+	top: 35%;
+	/*right: -25%;*/
+    left: 30%;
     background: #5265E1;
+    border-bottom-left-radius: 8rem;
 }
 
 .blue-left-shadow {
 	position: absolute;
 	z-index: -1;
-	width: 400%;
-	height: 95%;
+	width: -40%;
+	height: 70%;
 	top: 25%;
 	right: 25%;
     background: #5265E1;

@@ -1,0 +1,11 @@
+@import"./node_modules/bootstrap/scss/bootstrap.scss";
+
+$primary: #5265e1;
+$secondary: #fa5959;
+
+$accordion-icon-active-color: $secondary;
+.btn-login:active {
+    background-color: white; /* Cambia el color de fondo cuando el botón esté activo */
+    border-color: $secondary; /* Cambia el color del borde al rojo cuando el botón esté activo */
+    color: $secondary; /* Cambia el color del texto a blanco cuando el botón esté activo */
+}

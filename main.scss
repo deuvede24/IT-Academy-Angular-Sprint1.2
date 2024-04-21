@@ -9,3 +9,23 @@ $accordion-icon-active-color: $secondary;
     border-color: $secondary; /* Cambia el color del borde al rojo cuando el botón esté activo */
     color: $secondary; /* Cambia el color del texto a blanco cuando el botón esté activo */
 }
+
+.blue-right-shadow {
+	position: absolute;
+	z-index: -1;
+	width: 400%;
+	height: 75%;
+	top: 30%;
+	left: 30%;
+    background: #5265E1;
+}
+
+.blue-left-shadow {
+	position: absolute;
+	z-index: -1;
+	width: 400%;
+	height: 95%;
+	top: 25%;
+	right: 25%;
+    background: #5265E1;
+}

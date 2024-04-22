@@ -11971,6 +11971,11 @@ textarea.form-control-lg {
 /* color: $secondary; /* Cambia el color del texto a blanco cuando el botón esté activo 
     border: 1px solid $secondary;
 } */
+.btn-secondary {
+  background-color: #fa5959;
+  border-color: #fff;
+}
+
 .btn-primary:hover {
   color: #5265e1;
   background-color: #fff;

@@ -19,7 +19,9 @@ $accordion-icon-active-color: $secondary;
 } */
 
 
-
+.btn-secondary{
+background-color: $secondary;
+border-color: $body-bg;}
 
 .btn-primary:hover {
 	color: $primary;

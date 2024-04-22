@@ -11965,12 +11965,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.btn-login:active {
-  background-color: white; /* Cambia el color de fondo cuando el botón esté activo */
-  border-color: #fa5959; /* Cambia el color del borde al rojo cuando el botón esté activo */
-  color: #fa5959; /* Cambia el color del texto a blanco cuando el botón esté activo */
-}
-
+/*.btn-login:active {
+    background-color: white; /* Cambia el color de fondo cuando el botón esté activo */
+/*border-color: $secondary; /* Cambia el color del borde cuando el botón esté activo */
+/* color: $secondary; /* Cambia el color del texto a blanco cuando el botón esté activo 
+    border: 1px solid $secondary;
+} */
 .btn-primary:hover {
   color: #5265e1;
   background-color: #fff;
@@ -11978,9 +11978,15 @@ textarea.form-control-lg {
 }
 
 .btn-secondary:hover {
-  color: #fa5959 !important;
+  color: #fa5959;
   background-color: #fff;
   border-color: #fa5959;
+}
+
+.btn-firefox:hover {
+  color: #212529;
+  background-color: #fff;
+  border-color: #212529;
 }
 
 .img-main {

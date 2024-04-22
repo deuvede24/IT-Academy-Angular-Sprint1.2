@@ -3,12 +3,22 @@
 $primary: #5265e1;
 $secondary: #fa5959;
 
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary
+);
+
+
 $accordion-icon-active-color: $secondary;
-.btn-login:active {
+
+/*.btn-login:active {
     background-color: white; /* Cambia el color de fondo cuando el botón esté activo */
-    border-color: $secondary; /* Cambia el color del borde al rojo cuando el botón esté activo */
-    color: $secondary; /* Cambia el color del texto a blanco cuando el botón esté activo */
-}
+    /*border-color: $secondary; /* Cambia el color del borde cuando el botón esté activo */
+   /* color: $secondary; /* Cambia el color del texto a blanco cuando el botón esté activo 
+    border: 1px solid $secondary;
+} */
+
+
 
 
 .btn-primary:hover {
@@ -18,10 +28,17 @@ $accordion-icon-active-color: $secondary;
 }
 
 .btn-secondary:hover {
-	color: $secondary !important;
+	color: $secondary;
 	background-color: $body-bg;
 	border-color: $secondary;
 }
+
+.btn-firefox:hover{
+	color: $dark;
+	background-color: $body-bg;
+	border-color: $dark;
+}
+
 
 .img-main {
     position: relative;

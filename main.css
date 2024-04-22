@@ -12014,9 +12014,10 @@ textarea.form-control-lg {
 .blue-left-shadow {
   position: absolute;
   z-index: -1;
-  width: -40%;
-  height: 70%;
-  top: 25%;
-  right: 25%;
+  width: 130%;
+  height: 80%;
+  top: 35%;
+  right: 10%;
   background: #5265E1;
+  border-bottom-right-radius: 8rem;
 }/*# sourceMappingURL=main.css.map */

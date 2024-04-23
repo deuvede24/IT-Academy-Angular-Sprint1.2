@@ -13,32 +13,33 @@ $accordion-icon-active-color: $secondary;
 
 /*.btn-login:active {
     background-color: white; /* Cambia el color de fondo cuando el botón esté activo */
-    /*border-color: $secondary; /* Cambia el color del borde cuando el botón esté activo */
-   /* color: $secondary; /* Cambia el color del texto a blanco cuando el botón esté activo 
+/*border-color: $secondary; /* Cambia el color del borde cuando el botón esté activo */
+/* color: $secondary; /* Cambia el color del texto a blanco cuando el botón esté activo 
     border: 1px solid $secondary;
 } */
 
 
-.btn-secondary{
-background-color: $secondary;
-border-color: $body-bg;}
+.btn-secondary {
+    background-color: $secondary;
+    border-color: $body-bg;
+}
 
 .btn-primary:hover {
-	color: $primary;
-	background-color: $body-bg;
-	border-color: $primary;
+    color: $primary;
+    background-color: $body-bg;
+    border-color: $primary;
 }
 
 .btn-secondary:hover {
-	color: $secondary;
-	background-color: $body-bg;
-	border-color: $secondary;
+    color: $secondary;
+    background-color: $body-bg;
+    border-color: $secondary;
 }
 
-.btn-firefox:hover{
-	color: $dark;
-	background-color: $body-bg;
-	border-color: $dark;
+.btn-firefox:hover {
+    color: $dark;
+    background-color: $body-bg;
+    border-color: $dark;
 }
 
 
@@ -48,26 +49,26 @@ border-color: $body-bg;}
 }
 
 .blue-right-shadow {
-	position: absolute;
-	z-index: -1;
-	width: 85%;
-	height: 70%;
-	top: 35%;
-	/*right: -25%;*/
+    position: absolute;
+    z-index: -1;
+    width: 85%;
+    height: 70%;
+    top: 35%;
+    /*right: -25%;*/
     left: 30%;
     background: #5265E1;
     border-bottom-left-radius: 8rem;
 }
 
 .blue-left-shadow {
-	position: absolute;
-	z-index: -1;
-	width: 130%;
-	height: 80%;
-	top: 35%;
-	right: 10%;
+    position: absolute;
+    z-index: -1;
+    width: 130%;
+    height: 80%;
+    top: 35%;
+    right: 10%;
     background: #5265E1;
-	border-bottom-right-radius: 8rem;
+    border-bottom-right-radius: 8rem;
 }
 
 #cards {
@@ -88,18 +89,75 @@ border-color: $body-bg;}
     margin: 20px;
 }
 
-#chrome{  
+#chrome {
     align-self: flex-start;
 }
 
-#firefox{
+#firefox {
     align-self: center;
 }
 
-#opera{
+#opera {
     align-self: flex-end;
 }
 
-.accordion-button:hover{
-	color: $secondary;
+@media (max-width: 768px) {
+    #cards {
+
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        min-width: 320px;
+        height: 1000px;
+        margin: 0 auto;
+
+    }
+
+    #cards .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 70%;
+        height: 90%;
+        align-items: center;
+        border-radius: 15px;
+        box-shadow: 0px 0px 2px rgb(121, 119, 119);
+        margin: 20px;
+    }
+    #chrome {
+        align-self: center;
+    }
+    
+    #firefox {
+        align-self: center;
+    }
+    
+    #opera {
+        align-self: center;
+    }
+
 }
+
+.accordion-button:hover {
+    color: $secondary;
+}
+.accordion-button:focus {
+    border-color: transparent !important;
+    box-shadow: none !important;
+  }
+
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
+
+  /*$accordion-button-active-color: #212529;
+$accordion-button-active-bg: #ffffff00;
+$accordion-button-focus-box-shadow: #9c141400;
+$accordion-icon-active-color: $secondary;
+
+/* Anula el estilo predeterminado del contorno al hacer clic en los elementos de acordeón 
+.accordion-button:focus {
+    outline: transparent;
+}*/

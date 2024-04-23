@@ -12052,6 +12052,56 @@ textarea.form-control-lg {
   align-self: flex-end;
 }
 
+@media (max-width: 768px) {
+  #cards {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    min-width: 320px;
+    height: 1000px;
+    margin: 0 auto;
+  }
+  #cards .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 70%;
+    height: 90%;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px rgb(121, 119, 119);
+    margin: 20px;
+  }
+  #chrome {
+    align-self: center;
+  }
+  #firefox {
+    align-self: center;
+  }
+  #opera {
+    align-self: center;
+  }
+}
 .accordion-button:hover {
   color: #fa5959;
-}/*# sourceMappingURL=main.css.map */
+}
+
+.accordion-button:focus {
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/*$accordion-button-active-color: #212529;
+$accordion-button-active-bg: #ffffff00;
+$accordion-button-focus-box-shadow: #9c141400;
+$accordion-icon-active-color: $secondary;
+
+/* Anula el estilo predeterminado del contorno al hacer clic en los elementos de acordeón 
+.accordion-button:focus {
+    outline: transparent;
+}*//*# sourceMappingURL=main.css.map */

@@ -12050,4 +12050,8 @@ textarea.form-control-lg {
 
 #opera {
   align-self: flex-end;
+}
+
+.accordion-button:hover {
+  color: #fa5959;
 }/*# sourceMappingURL=main.css.map */

@@ -11965,12 +11965,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-/*.btn-login:active {
-    background-color: white; /* Cambia el color de fondo cuando el botón esté activo */
-/*border-color: $secondary; /* Cambia el color del borde cuando el botón esté activo */
-/* color: $secondary; /* Cambia el color del texto a blanco cuando el botón esté activo 
-    border: 1px solid $secondary;
-} */
 .btn-secondary {
   background-color: #fa5959;
   border-color: #fff;
@@ -12112,6 +12106,7 @@ $accordion-button-active-bg: #ffffff00;
 $accordion-button-focus-box-shadow: #9c141400;
 $accordion-icon-active-color: $secondary;
 
+
 /* Anula el estilo predeterminado del contorno al hacer clic en los elementos de acordeón 
 .accordion-button:focus {
     outline: transparent;
@@ -12120,4 +12115,35 @@ $accordion-icon-active-color: $secondary;
   color: white;
   text-decoration: none;
   font-size: 13px;
+}
+
+.icons:hover {
+  background-color: #fa5959;
+}
+
+#footer a:hover {
+  color: #fa5959 !important;
+}
+
+.facebook:hover {
+  background-color: #fa5959;
+}
+
+.twitter:hover {
+  background-color: #fa5959;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+  color: #212529;
+  border-bottom: 0.25rem solid #fa5959;
+}
+
+.nav-tabs .nav-item .nav-link {
+  color: #6c757d;
+  border: none;
+}
+
+.nav .nav-item .nav-link {
+  letter-spacing: 0.1rem;
+  font-size: 0.85rem;
 }/*# sourceMappingURL=main.css.map */

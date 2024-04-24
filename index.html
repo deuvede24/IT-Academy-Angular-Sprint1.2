@@ -8,43 +8,49 @@
   <link rel="stylesheet" href="main.css" />
 </head>
 
-<body>
+<body class="overflow-x-hidden">
   <header>
-    <div class="container-xl mx-10 my-4"> <!-- Agregado margen horizontal y centrado -->
-      <nav class="fixed-top navbar navbar-expand-lg bg-body px-2 px-lg-0 pt-4 pt-lg-4 pb-3">
-        <div class="container-fluid">
-          <a class="navbar-brand ms-lg-5" href="#">
-            <img src="./img/Imagenes/logo-bookmark.svg" alt="logo Bookmark" height="30" />
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <img src="./img/Imagenes/icon-hamburger.svg" alt="burger menu" />
-          </button>
-          <div class="collapse navbar-collapse me-5 pe-5" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto align items center text-uppercase">
-              <li class="nav-item">
-                <a class="nav-link mx-3" href="#">features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-3" href="#">pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-3" href="#">contact</a>
-              </li>
-            </ul>
-            <div class="text-center">
-              <button class="btn btn-secondary mx-2 py-2 px-4 rounded-2" type="button">LOGIN</button>
+    <div class="container mx-10 my-4"> <!-- Agregado margen horizontal y centrado -->
+      <div class="row my-5">
+        <nav class="fixed-top navbar navbar-expand-lg bg-body">
+          <div class="container">
+            <a class="navbar-brand ms-lg-5" href="#">
+              <img src="./img/Imagenes/logo-bookmark.svg" alt="logo Bookmark" height="30" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <img src="./img/Imagenes/icon-hamburger.svg" alt="burger menu" />
+            </button>
+            <div class="collapse navbar-collapse me-5 pe-5" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto align items center text-uppercase">
+                <li class="nav-item">
+                  <a class="nav-link mx-3" href="#">features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-3" href="#">pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-3" href="#">contact</a>
+                </li>
+                <li class=" text-center">
+                  <button class="btn btn-secondary mx-2 py-2 px-4 rounded-2" type="button">LOGIN</button>
+                </li>
+              </ul>
+
+              <!--- <div class="text-center">
+                
+              </div>-->
             </div>
           </div>
-      </nav>
-    </div>
+        </nav>
+      </div>
   </header>
 
   <!-- main nivell1 ex.2-->
   <main class="container mt-5 pt-4">
     <div class="row flex-column-reverse row align-items-end flex-md-row d-flex">
-      <div class="text-center text-md-start col-md-3 col-lg-5 col align-self-center">
+      <div class="col-12 col-md-6 order-2 order-md-1 mt-3 mb-5 col align-self-center text-center text-md-start">
         <h1 class="fw-bold mt-5">A Simple Bookmark Manager</h1>
         <p class="text-body-secondary mt-3">
           A clean and simple interface to organize your favorite websites.Open
@@ -174,7 +180,8 @@
             </h2>
             <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
               data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body text-body-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit,
+              <div class="accordion-body text-body-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Reprehenderit,
                 quas.</div>
             </div>
           </div>
@@ -187,7 +194,8 @@
             </h2>
             <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
               data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body text-body-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit,
+              <div class="accordion-body text-body-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Reprehenderit,
                 suscipit?</div>
             </div>
           </div>
@@ -200,7 +208,8 @@
             </h2>
             <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
               data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body text-body-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, dicta!
+              <div class="accordion-body text-body-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Illum, dicta!
               </div>
             </div>
           </div>
@@ -213,7 +222,8 @@
             </h2>
             <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
               data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body text-body-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, vitae.
+              <div class="accordion-body text-body-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                At, vitae.
               </div>
             </div>
           </div>
@@ -223,13 +233,12 @@
         </div>
       </div>
     </div>
- </main>
+  </main>
 
- <footer>
-  <h3>hola</h3>
+  <footer>
 
 
- </footer>
+  </footer>
   <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 

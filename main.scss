@@ -11,13 +11,6 @@ $theme-colors: (
 
 $accordion-icon-active-color: $secondary;
 
-/*.btn-login:active {
-    background-color: white; /* Cambia el color de fondo cuando el botón esté activo */
-/*border-color: $secondary; /* Cambia el color del borde cuando el botón esté activo */
-/* color: $secondary; /* Cambia el color del texto a blanco cuando el botón esté activo 
-    border: 1px solid $secondary;
-} */
-
 
 .btn-secondary {
     background-color: $secondary;
@@ -31,6 +24,7 @@ $accordion-icon-active-color: $secondary;
     color: $secondary;
     background-color: $body-bg;
     border-color: $secondary;
+    
 }
 .btn-primary:hover {
     color: $primary;
@@ -165,13 +159,48 @@ $accordion-button-active-bg: #ffffff00;
 $accordion-button-focus-box-shadow: #9c141400;
 $accordion-icon-active-color: $secondary;
 
+
 /* Anula el estilo predeterminado del contorno al hacer clic en los elementos de acordeón 
 .accordion-button:focus {
     outline: transparent;
 }*/
 
+$accordion-button-icon: url(./img/Imagenes/icon-arrow.svg);
+$accordion-icon-active-color: $secondary;
+
 #footer a {
     color: white;
     text-decoration: none;
     font-size: 13px;
+}
+.icons:hover{
+    background-color: #fa5959;
+
+}
+
+#footer a:hover {
+    color: $secondary !important;
+}
+.facebook:hover {
+    background-color: $secondary;
+}
+
+.twitter:hover {
+    background-color: $secondary;
+
+}
+
+.nav-tabs .nav-item .nav-link.active {
+	color: $dark;
+	border-bottom: 0.25rem solid $secondary;
+}
+
+.nav-tabs .nav-item .nav-link {
+	color: $gray-600;
+	border: none;
+}
+
+.nav .nav-item .nav-link {
+	letter-spacing: 0.1rem;
+	font-size: 0.85rem;
 }

@@ -23,7 +23,15 @@ $accordion-icon-active-color: $secondary;
     background-color: $secondary;
     border-color: $body-bg;
 }
-
+.btn-submit{
+    background-color: $secondary;
+    border-color: none;
+}
+.btn-submit:hover {
+    color: $secondary;
+    background-color: $body-bg;
+    border-color: $secondary;
+}
 .btn-primary:hover {
     color: $primary;
     background-color: $body-bg;

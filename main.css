@@ -11976,6 +11976,17 @@ textarea.form-control-lg {
   border-color: #fff;
 }
 
+.btn-submit {
+  background-color: #fa5959;
+  border-color: none;
+}
+
+.btn-submit:hover {
+  color: #fa5959;
+  background-color: #fff;
+  border-color: #fa5959;
+}
+
 .btn-primary:hover {
   color: #5265e1;
   background-color: #fff;
@@ -12104,4 +12115,9 @@ $accordion-icon-active-color: $secondary;
 /* Anula el estilo predeterminado del contorno al hacer clic en los elementos de acordeón 
 .accordion-button:focus {
     outline: transparent;
-}*//*# sourceMappingURL=main.css.map */
+}*/
+#footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+}/*# sourceMappingURL=main.css.map */

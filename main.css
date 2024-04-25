@@ -11965,6 +11965,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+html,
+body {
+  overflow-x: hidden;
+}
+
 .btn-secondary {
   background-color: #fa5959;
   border-color: #fff;
@@ -12115,11 +12120,11 @@ textarea.form-control-lg {
 }
 
 .facebook:hover {
-  background-color: #fa5959;
+  filter: brightness(0) saturate(100%) invert(42%) sepia(46%) saturate(812%) hue-rotate(314deg) brightness(107%) contrast(96%);
 }
 
 .twitter:hover {
-  background-color: #fa5959;
+  filter: brightness(0) saturate(100%) invert(42%) sepia(46%) saturate(812%) hue-rotate(314deg) brightness(107%) contrast(96%);
 }
 
 .nav-link:hover {

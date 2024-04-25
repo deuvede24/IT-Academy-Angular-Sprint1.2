@@ -5,7 +5,6 @@ $secondary: #fa5959;
 
 
 
-
 $theme-colors: (
     "primary": $primary,
     "secondary": $secondary
@@ -13,6 +12,13 @@ $theme-colors: (
 
 
 $accordion-icon-active-color: $secondary;
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+
 
 
 .btn-secondary {
@@ -180,11 +186,11 @@ $accordion-icon-active-color: $secondary;
 }
 
 .facebook:hover {
-    background-color: $secondary;
+    filter: brightness(0) saturate(100%) invert(42%) sepia(46%) saturate(812%) hue-rotate(314deg) brightness(107%) contrast(96%);
 }
 
 .twitter:hover {
-    background-color: $secondary;
+    filter: brightness(0) saturate(100%) invert(42%) sepia(46%) saturate(812%) hue-rotate(314deg) brightness(107%) contrast(96%);
 
 }
 
